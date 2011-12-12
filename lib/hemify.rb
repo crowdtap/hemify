@@ -1,3 +1,4 @@
+require 'hemify/rails'
+
 module Hemify
-  autoload :Server, "hemify/server"
 end

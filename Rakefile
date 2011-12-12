@@ -20,7 +20,6 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{Easily add hem projects to a Rails app}
   gem.email = "kareemk@crowdtap.com"
   gem.authors = ["Kareem Kouddous"]
-  gem.add_runtime_dependency 'execjs'
   gem.add_development_dependency 'rspec'
   gem.version = Hemify::VERSION
 end
