@@ -1,3 +1,3 @@
-# hem-rb
+# hemify
 
 Add Hem to your Rails
