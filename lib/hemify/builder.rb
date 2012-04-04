@@ -1,11 +1,11 @@
 module Hemify
 
   class Builder
-    def self.generate
+    def self.generate(package)
       source = ''
       FileUtils.cd Rails.root do
         `rm -rf node_modules` if Dir.exists? "node_modules"
-        `npm install`
+        `npm install #{package}`
         FileUtils.cd "node_modules" do
           Dir.glob("*").each do |project|
             FileUtils.cd project do
