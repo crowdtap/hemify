@@ -23,7 +23,6 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "hemify.gemspec",
-    "lib/.nodeify.rb.swp",
     "lib/hemify.rb",
     "lib/hemify/version.rb"
   ]
